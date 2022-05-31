@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Binary Search Tree</title>
+  <link href="index-styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div id="tree-controls">
+      Значение:
+      <input id="value" type="text" value="1" onkeyup="this.value = this.value.replace (/[^0-9+]/, '')"/>
+      <input id="add" type="button" value="Добавить"/>
+      <input id="remove" type="button" value="Удалить"/>
+      <input id="search" type="button" value="Найти"/>
+    </div>
+    <div id="sheets"></div>
+    <div id="lines">
+    </div>
+  </div>
+  <script type="module" src="../../dist/view/index-scripts.js"></script>
+</body>
+</html>

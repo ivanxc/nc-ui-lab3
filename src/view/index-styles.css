@@ -1,0 +1,29 @@
+.node {
+  display: flex;
+  background-color: #b2dbbf;
+  border: black 2px solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.line {
+  width: 333px;
+  left: 750px;
+  top: 60px;
+  background-color: black;
+  height: 0;
+  border: 1px solid #C4C4C4;
+  display: inline-block;
+  position: absolute;
+  transform: rotate(1rad);
+}
+
+.marked {
+  transition-property: background-color;
+  transition-duration: 1s;
+  border: #ff0000 2px solid;
+}
